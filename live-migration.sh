@@ -2,11 +2,11 @@
 #
 # This script should be executed on destination server (new Zimbra installation = TO_IP value)
 # Customize as required. You need to select the proper mode to run this script
-# Option "1":
-#		Backup Mode imports all the accounts from origin server (FROM_IP) and stores them in a local directory
-# Option "2":
-#		Restore Mode exports all the accounts in .tgz stored locally (in $BACKUPFOLDER) to remote server (new Zimbra)
-# Option "3": 
+# Option "1 and 2":
+#		Backup Mode imports one/all the accounts from origin server (FROM_IP) and stores them in a local directory
+# Option "3 and 4":
+#		Restore Mode exports one/all the accounts in .tgz stored locally (in $BACKUPFOLDER) to remote server (new Zimbra)
+# Option "5": 
 #		Backup/Restore Mode imports and exports all the accounts from origin ($FROM_IP) server to destination ($TO_IP).
 # NOTE: Option 3 requires all domains and accounts to be created in destination ($TO_IP) server.
 # 
